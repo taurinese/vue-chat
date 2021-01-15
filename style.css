@@ -1,0 +1,32 @@
+.li-username:hover{
+    background-color: lightgrey;
+    border-radius:25px;
+    color:#1069D9;
+}
+
+
+.chat {
+    position:absolute;
+    top: 140px;
+    width:98vw;
+}
+
+.msg-rounded{
+    border-radius: 10px;
+}
+
+.msg-class {
+    background-color: #1abc9c;
+}
+
+.btn-send {
+    color:white;
+}
+
+.text-grey {
+    color:lightgrey;
+}
+
+.w-85{
+    width:85%;
+}
