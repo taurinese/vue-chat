@@ -7,8 +7,8 @@ const user = {
             }
         }
     },
-    methods: {},/* 
-    template: `<li>{{ user.username }}</li>`, */
+    methods: {},
+    template: `<li class="my-2 li-username pl-5">{{ user.username }}</li>`,
     mounted() {
         this.$emit('user', this.user.username)
     },

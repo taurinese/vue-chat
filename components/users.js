@@ -12,11 +12,8 @@ const users = {
         <div class="shadow-sm border border-light">
             <h6 class="p-3 pb-0 border-bottom text-center">UTILISATEURS CONNECTÉS</h6>
             <ul class="p-3 list-unstyled m-0">
-                <li v-for="user in users" class="my-2 li-username pl-5">{{user}}</li>
+                <user v-for="n in count" @user="newUser"></user>
             </ul>
-            <div class="d-none" v-for="n in count">
-                <user @user="newUser"></user>
-            </div>
         </div>
     </div>`,
     components: {
