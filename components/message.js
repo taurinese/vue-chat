@@ -39,7 +39,7 @@ const message = {
             <div class="d-flex flex-row align-items-center mt-5">
                 <form @submit.prevent="sendMessage" class="w-100">
                     <input v-model="text" type="text" placeholder="Message input" class="form-control d-inline-block w-85" />
-                    <button class="btn btn-primary ml-3 d-inline-block" type="submit">Envoyer</button>
+                    <button :disabled="!text" class="btn btn-primary ml-3 d-inline-block" type="submit">Envoyer</button>
                 </form>
             </div>
         </div>
